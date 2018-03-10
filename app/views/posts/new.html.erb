@@ -23,8 +23,8 @@
   </div>
 
   <div class="field<%= ' field_with_errors' if @post.errors[:phone_number].any? %>">
-    <%= label_tag "phone_number", "Phone Number" %>
-    <%= text_field_tag "phone_number", @post.phone_number %>
+    <%= label_tag "content", "Content" %>
+    <%= text_field_tag "content", @post.content %>
   </div>
 
   <%= submit_tag "Create" %>
